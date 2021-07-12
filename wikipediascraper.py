@@ -30,3 +30,8 @@ name = alphabetical_name.find("a",href = True)
 link anchortag["href"]
 #get the letter
 letter_name = category 
+#Make a data dictonary that will be written into the CSV
+row = {"name": name,
+       "link": link,
+       "letter_name": letter_name}
+row.append(row)
